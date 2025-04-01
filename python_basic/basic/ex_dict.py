@@ -33,3 +33,4 @@ for key in d:
 print(d.values())
 for value in d:
     print(value)
+

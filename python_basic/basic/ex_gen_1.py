@@ -1,17 +1,7 @@
 
 def get_number_generator(n):
-    for i in range(n):
-        print("before yield")
-        yield i
-        print("after yield")
-
-number = get_number_generator(3)
-
-print(next(number, 'end'))
-print()
-
-print(next(number, 'end'))
-print()
-
-print(next(number, 'end'))
-print()
+    while True:
+        for i in range(n):
+            print("before yield")
+            yield i # 값을 반환하고 실행을 멈춤
+            print("after yield")

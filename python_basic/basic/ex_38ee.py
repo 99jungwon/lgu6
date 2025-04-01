@@ -66,6 +66,13 @@ def order_by_customers(orders):
                     "total_amount" : total
                 }
 
+# products = [ order['product'] for order in customer['quantity]]
+# total_amount = sum(
+#   [
+#       order['unit_price]*order['quantity] for order in customer['orders']
+#   ]
+#)
+
     return result
 
 print(order_by_customers(orders))

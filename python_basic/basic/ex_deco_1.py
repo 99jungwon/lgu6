@@ -13,6 +13,7 @@ def timing_decorator(func):
         return result
     return wrapper
 
+@timing_decorator
 def fibonacci_dp(n):
     if n == 0:
         return[0]
@@ -26,6 +27,7 @@ def fibonacci_dp(n):
         fib[i] = fib[i-2] + fib[i-1]
     return fib
 
+@timing_decorator
 def fibonacci(n):
     a, b = 0, 1
     for _ in range(n+1):

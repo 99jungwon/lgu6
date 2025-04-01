@@ -3,7 +3,7 @@ import pandas as pd
 df = pd.read_excel("./data/scores.xlsx")
 
 df = df.T.to_dict()
-data = [v for v in df.items()]
+data = [v for k, v in df.items()]
 print(data)
 
 score_data = {}
