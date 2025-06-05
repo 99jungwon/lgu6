@@ -1,0 +1,15 @@
+numpy
+pandas
+pandas_datareader
+yfinance
+matplotlib
+seaborn
+scikit-learn
+scipy
+statsmodels 
+sympy
+pgmpy
+jupyterlab
+xgboost
+catboost
+lightgbm

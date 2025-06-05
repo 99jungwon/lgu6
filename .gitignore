@@ -192,3 +192,8 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+4_ai_statistics/Deeplearning/CH12/cat_dog_images/
+4_ai_statistics/Deeplearning/CH12/celeba/img_align_celeba/
+4_ai_statistics/Deeplearning/CH12/data/cifar-10-python.tar.gz
+
